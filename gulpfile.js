@@ -1,6 +1,7 @@
 'use strict';
 
 const gulp = require('gulp');
+const gutil = require('gulp-util');
 const svgSprite = require('gulp-svg-sprite');
 const autoprefixer = require('gulp-autoprefixer');
 const changed = require('gulp-changed');
